@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": ["jest"],
+    "jsx": "react",
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/**/*.test.js",
+    "src/**/*.test.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

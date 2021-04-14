@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "lib",
+      "demo"
+    ]
+  },
+  "scripts": {
+    "lib:lint": "lerna run lint",
+    "lib:test": "lerna run test",
+    "lib:build": "lerna run build",
+    "lib:watch": "lerna run watch --stream",
+    "demo:start": "yarn workspace demo start",
+    "start": "concurrently --kill-others \"yarn lib:build && yarn demo:start\" \"yarn lib:watch\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "concurrently": "^6.0.2",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
+    "lerna": "^4.0.0",
+    "typescript": "^4.1.2"
+  }
+}

@@ -1,0 +1,7 @@
+.form {
+  margin: 1rem .5rem;
+}
+
+.form > * {
+  margin-right: .5rem;
+}
