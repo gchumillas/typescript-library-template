@@ -1,5 +1,5 @@
 import React from 'react'
-import { fibonacci } from '@username/awesome-typescript-lib'
+import { fibonacci } from '@npm-username/library-name'
 import './App.css'
 
 function App() {
