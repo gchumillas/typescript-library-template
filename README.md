@@ -11,21 +11,21 @@ This template is intended to serve as a basis for developing TypeScript librarie
 /lib  --> our library
 ```
 
-## Install
+## Installation
 
 Download the repository:
 ```bash
 git clone https://github.com/gchumillas/typescript-library-template
 ```
 
-and replace all occurrences of `@npm-username/library-name` with the name of your library. For example, let's say your NPM username is `anderson`:
+and replace all occurrences of `@npm-username/library-name` with the name of your library. For example, let's say your NPM username is `anderson` and the desired library name is `my-lib`. Then, the full library name would be `@anderson/my-lib`:
 
 ```diff
 // demo/src/App.tsx
 
 import React from 'react'
 - import { fibonacci } from '@npm-username/library-name'
-+ import { fibonacci } from '@anderson/my-awesome-lib'
++ import { fibonacci } from '@anderson/my-lib'
 import './App.css'
 ```
 
@@ -38,7 +38,7 @@ import './App.css'
   "private": true,
   "dependencies": {
 -    "@npm-username/library-name": "*",
-+    "@anderson/my-awesome-lib": "*",
++    "@anderson/my-lib": "*",
 ```
 
 ```diff
@@ -46,7 +46,7 @@ import './App.css'
 
 {
 -  "name": "@npm-username/library-name",
-+  "name": "@anderson/my-awesome-lib",
++  "name": "@anderson/my-lib",
 ```
 
 ## Publish to NPM
