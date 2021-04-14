@@ -55,4 +55,4 @@ cd typescript-library-template
 yarn install
 ```
 
-## Publish to NPM
+## Publish your library to NPM
