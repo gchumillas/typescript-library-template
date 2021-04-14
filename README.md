@@ -16,6 +16,7 @@ This template is intended to serve as a basis for developing TypeScript librarie
 Download the repository:
 ```bash
 git clone https://github.com/gchumillas/typescript-library-template
+cd typescript-library-template
 ```
 
 and replace all occurrences of `@npm-username/library-name` with the name of your library. For example, let's say your NPM username is `anderson` and the desired library name is `my-lib`. Then, the full library name would be `@anderson/my-lib`:
@@ -47,6 +48,11 @@ import './App.css'
 {
 -  "name": "@npm-username/library-name",
 +  "name": "@anderson/my-lib",
+```
+
+and finally install the dependencies:
+```bash
+yarn install
 ```
 
 ## Publish to NPM
