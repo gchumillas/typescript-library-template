@@ -51,6 +51,7 @@ import './App.css'
 
 and finally install the dependencies:
 ```bash
+cd typescript-library-template
 yarn install
 ```
 
