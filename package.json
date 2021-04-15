@@ -12,6 +12,7 @@
     "lib:build": "lerna run build",
     "lib:watch": "lerna run watch --stream",
     "demo:start": "yarn workspace demo start",
+    "prepare": "yarn lib:build",
     "start": "concurrently --kill-others \"yarn lib:build && yarn demo:start\" \"yarn lib:watch\""
   },
   "devDependencies": {
