@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Another amazing library",
   "repository": "github:npm-username/library-name",
-  "author": "Gonzalo Chumillas",
+  "author": "Your Name",
   "main": "dist/index",
   "types": "dist/index",
   "keywords": [
