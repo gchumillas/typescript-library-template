@@ -14,6 +14,7 @@ This template is intended to serve as a basis for developing TypeScript librarie
 ## Installation
 
 Download the repository:
+
 ```bash
 git clone https://github.com/gchumillas/typescript-library-template
 ```
@@ -50,9 +51,23 @@ import './App.css'
 ```
 
 and finally install the dependencies:
+
 ```bash
 cd typescript-library-template
 yarn install
 ```
+
+## Start developing
+
+To start a development server, simply execute the following command from the root directory:
+
+```bash
+yarn start
+```
+
+If you take a look at the above command (package.json : scripts), you can see that it does two things:
+
+1. Compile your library into the `/lib/src/dist` folder and start a React server.
+2. Watch for changes in `/lib/src` and re-compile it.
 
 ## Publish your library to NPM
