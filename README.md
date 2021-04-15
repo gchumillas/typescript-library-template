@@ -67,7 +67,7 @@ yarn start
 If you take a look at the above command (package.json : scripts), you can see that it does two things:
 
 1. Compile your library into the `/lib/src/dist` folder and start a React server.
-2. Watch for changes in `/lib/src` and re-compile it.
+2. Watch for changes in `/lib/src` and recompile it when needed.
 
 ## Publish your library to NPM
 
