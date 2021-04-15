@@ -4,7 +4,7 @@ A template to create TypeScript libraries.
 
 When creating a library or component, it is common to also create a small project to show it. In addition, that project can also be used to document or test our library.
 
-This template uses [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and is intended to serve as a basis for developing TypeScript libraries. I contains two important folders:
+This template uses [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and is intended to serve as a basis for developing TypeScript libraries. It contains two important folders:
 
 ```
 /demo --> an usual React application (CRA)
