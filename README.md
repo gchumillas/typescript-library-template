@@ -84,7 +84,6 @@ Before publishing your library to NPM checkout the following information:
   "description": "Another amazing library",
   "repository": "github:npm-username/library-name",
   "author": "Your Name",
-  // ...
 ```
 
 Then log into NPM and publish your library
