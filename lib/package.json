@@ -13,7 +13,7 @@
     "template"
   ],
   "scripts": {
-    "test": "jest ./src",
+    "test": "jest ./dist",
     "lint": "tsc --noEmit && eslint 'src/**/*.{ts,tsx}'",
     "watch": "tsc --watch",
     "build": "rimraf ./dist && tsc"
