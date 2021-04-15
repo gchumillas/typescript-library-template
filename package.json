@@ -13,7 +13,7 @@
     "lib:watch": "lerna run watch --stream",
     "demo:start": "yarn workspace demo start",
     "prepare": "yarn lib:build",
-    "start": "concurrently --kill-others \"yarn lib:build && yarn demo:start\" \"yarn lib:watch\""
+    "start": "concurrently --kill-others --raw \"yarn lib:build && yarn demo:start\" \"yarn lib:watch\""
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
