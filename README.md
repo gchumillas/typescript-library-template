@@ -72,7 +72,7 @@ If you take a look at the above command (package.json : scripts), you can see th
 
 ## Publish your library to NPM
 
-Before publishing your library to NPM checkout the following information:
+Before publishing your library to NPM check out the following information:
 
 ```json
 // lib/package.json
