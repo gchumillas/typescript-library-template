@@ -50,6 +50,8 @@ import './App.css'
 +  "name": "@anderson/my-lib",
 ```
 
+**Caveats:** If you use VSCode, you may need to reload the window (`Crl + P` and `Developer: Reload Window`) after replacing the library name.
+
 and finally install the dependencies:
 
 ```bash
