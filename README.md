@@ -50,13 +50,13 @@ import './App.css'
 +  "name": "@anderson/my-lib",
 ```
 
-**Caveats:** If you use VSCode you may need to reload the editor after replacing the library name. To reload the editor simply press `Crl + P` and select `Developer: Reload Window`.
-
 And finally install the dependencies:
 
 ```bash
 yarn install
 ```
+
+**Caveats:** If you use VSCode you may need to reload the editor after replacing the library name. To reload the editor simply press `Crl + P` and select `Developer: Reload Window`.
 
 ## Start developing
 
